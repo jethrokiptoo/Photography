@@ -22,3 +22,13 @@ This project was created as part of a web development assignment to demonstrate 
 
 ---
 
+## Technologies Used
+
+- HTML5
+- CSS3
+- Git
+- GitHub
+- GitHub Pages
+
+---
+

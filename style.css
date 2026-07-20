@@ -10,7 +10,7 @@ body{
     font-family:'Poppins',sans-serif;
     background:#0f172a;
     color:#ffffff;
-    line-height:1.7;
+    line-height: 2.5;
 }
 
 /*  the floating nav bar Navigation */
@@ -20,8 +20,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
-    background: rgba(15, 23, 42, 0.95);
-    backdrop-filter: blur(10px);
+    background: rgba(224, 221, 6, 0.95);
+    backdrop-filter: blur(5px);
     position: fixed;
     top: 0;
     left: 0;
@@ -150,7 +150,7 @@ section{
 section h2{
     text-align:center;
     font-size:40px;
-    color:#f59e0b;
+    color: hotpink;
     margin-bottom:40px;
 }
 
@@ -314,6 +314,12 @@ footer{
    
     z-index: 1000;
 }
+.about-container {
+    border-radius: 50%;
+    padding: 20px;
+    background: rgba(15, 23, 42, 0.8);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;}
 
 
 }
