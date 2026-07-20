@@ -30,12 +30,13 @@ body{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-Since the navbar is fixed, add space at the top of the page so it doesn't cover your content:
+
 
 body{
     padding-top: 90px;
 }
-Smooth Hover Effect
+/* Smooth Hover Effect */
+
 .nav-links a{
     color: white;
     text-decoration: none;
@@ -61,12 +62,12 @@ Smooth Hover Effect
 .nav-links a:hover::after{
     width: 100%;
 }
-For your photography portfolio, I recommend Option 2 (Fixed Navbar) because it gives a modern, professional feel and lets visitors access your navigation at any point while scrolling. It works especially well with sections like Home, Gallery, About, and Contact.
-
+/* Logo */
 .logo{
     font-size:30px;
     font-weight:700;
     color:#f59e0b;
+    border-radius:10px;
 }
 
 .logo span{
