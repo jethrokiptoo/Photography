@@ -32,3 +32,8 @@ This project was created as part of a web development assignment to demonstrate 
 
 ---
 
+## Author
+By Jethro kiptoo GitHub:https://github.com/jethrokiptoo
+
+
+
