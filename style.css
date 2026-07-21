@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    align-items:center;
     scroll-behavior:smooth;
 }
 
@@ -13,7 +14,7 @@ body{
     line-height: 2.5;
 }
 
-/*  the floating nav bar Navigation */
+/*  the sticky nav bar Navigation */
 
 .navbar{
     display: flex;
@@ -51,7 +52,7 @@ body{
     bottom: -5px;
     width: 0;
     height: 3px;
-    background: #f59e0b;
+    background: #fc7e01;
     transition: width 0.3s ease;
 }
 
@@ -194,6 +195,7 @@ section h2{
 ul,ol{
     margin-left:40px;
     color:#cbd5e1;
+    justify-content:center;
 }
 
 li{
@@ -206,12 +208,17 @@ li{
     align-items:center;
     gap:40px;
     flex-wrap:wrap;
+    align-items:center;
+    justify -content:center;
 }
 
 .about-container img{
     width:300px;
-    border-radius:20px;
+    border-radius:50%;
     border:5px solid #f59e0b;
+    align-self:center;
+    align-items:center;
+    justify-content:center;
 }
 
 .about-container p{
